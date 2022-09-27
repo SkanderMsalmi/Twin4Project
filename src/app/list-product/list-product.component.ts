@@ -1,3 +1,4 @@
+import { Product } from './../model/product';
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../model/product';
 
@@ -13,6 +14,7 @@ export class ListProductComponent implements OnInit {
   }
   ngOnInit(): void {
     this.title = 'MyStore App';
+
     this.list =[
       {
         id:12,
@@ -50,4 +52,5 @@ export class ListProductComponent implements OnInit {
           this.list[i].quantity--;
         }
       }
+
 }
