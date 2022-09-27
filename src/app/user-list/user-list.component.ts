@@ -31,7 +31,7 @@ export class UserListComponent implements OnInit {
         picture:'https://bootdey.com/img/Content/avatar/avatar3.png'
       },
       {
-        id: 2,
+        id: 3,
         name: 'William Swift',
         job: 'Backend Developer',
         phone: '012 6587 1236',
@@ -40,6 +40,12 @@ export class UserListComponent implements OnInit {
         picture:'https://bootdey.com/img/Content/avatar/avatar4.png'
       },
     ]
+  }
+  deleteUser(user:User):void{
+    let i = this.users.indexOf(user);
+    if(i != 0){
+      this.users.splice(i,1);
+    }
   }
 
 }
