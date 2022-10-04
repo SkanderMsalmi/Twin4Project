@@ -1,6 +1,5 @@
 import { Product } from './../model/product';
 import { Component, OnInit } from '@angular/core';
-import { Product } from '../model/product';
 
 @Component({
   selector: 'app-list-product',
@@ -39,7 +38,7 @@ export class ListProductComponent implements OnInit {
       }
     ]
     }
-    inrcrementLike (product :Product):void {
+    incerementLike (product :Product):void {
 
       let i = this.list.indexOf(product);
       if(i!= -1){
@@ -47,7 +46,7 @@ export class ListProductComponent implements OnInit {
       }
       
       }
-      decrementOfStock(product :Product):void{
+      buyProduct(product :Product):void{
         let i = this.list.indexOf(product);
         if(i!= -1){
           this.list[i].quantity--;
