@@ -41,5 +41,11 @@ export class UserListComponent implements OnInit {
       },
     ]
   }
+  deleteUser(user:User):void{
+    let i = this.list.indexOf(user);
+    if(i != 0){
+      this.list.splice(i,1);
+    }
+  }
 
 }
