@@ -1,3 +1,4 @@
+import { User } from './../model/user';
 import { Component, OnInit } from '@angular/core';
 import { User } from '../model/user';
 
@@ -7,11 +8,13 @@ import { User } from '../model/user';
   styleUrls: ['./user-list.component.css']
 })
 export class UserListComponent implements OnInit {
-  public users:User[];
+
+  list: User[]
   constructor() { }
 
   ngOnInit(): void {
-    this.users= [
+    this.list=[
+
       {
         id: 1,
         name: 'James Nix',
@@ -31,7 +34,9 @@ export class UserListComponent implements OnInit {
         picture:'https://bootdey.com/img/Content/avatar/avatar3.png'
       },
       {
+
         id: 3,
+
         name: 'William Swift',
         job: 'Backend Developer',
         phone: '012 6587 1236',
@@ -42,9 +47,11 @@ export class UserListComponent implements OnInit {
     ]
   }
   deleteUser(user:User):void{
-    let i = this.users.indexOf(user);
-    if(i != 0){
-      this.users.splice(i,1);
+
+    let i = this.list.indexOf(user);
+    if(i != -1){
+      this.list.splice(i,1);
+
     }
   }
 

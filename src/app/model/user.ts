@@ -1,9 +1,11 @@
-export class User {
-    id:number;
-    name:String;
-    job:String;
-    phone:String;
-    email:String;
-    address:String;
-    picture:String;
+
+export class User{
+    id: number;
+    name: string;
+    job: string;
+    phone: string;
+    email:string;
+    address:string;
+    picture:string;
 }
+
