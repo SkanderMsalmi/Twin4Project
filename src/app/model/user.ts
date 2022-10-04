@@ -1,3 +1,4 @@
+
 export class User{
     id: number;
     name: string;
@@ -7,3 +8,4 @@ export class User{
     address:string;
     picture:string;
 }
+
