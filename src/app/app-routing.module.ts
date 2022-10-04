@@ -5,6 +5,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ListProductComponent } from './list-product/list-product.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { Routes , RouterModule} from '@angular/router';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const ROUTES: Routes = [
   {
@@ -18,6 +19,9 @@ const ROUTES: Routes = [
   },
   {
     path:'users',component:UserListComponent
+  },
+  {
+    path:'**',component:NotFoundComponent
   }
 ];
 

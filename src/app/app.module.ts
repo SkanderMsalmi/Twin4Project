@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { Routes , RouterModule} from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 /*.In our AppModule, we then need to specify the component that will serve as the entry point component for our application.
 In our app.module.ts file where we import the entry component (conventionally AppComponent) and supply it as the only item
@@ -23,7 +24,8 @@ in our bootstrap array inside the NgModule configuration object. eg. bootstrap[A
     FooterComponent,
     UserListComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
