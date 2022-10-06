@@ -44,6 +44,7 @@ export class UserListComponent implements OnInit {
         picture:'https://bootdey.com/img/Content/avatar/avatar4.png'
       },
     ]
+    
   }
   deleteUser(user:User):void{
 

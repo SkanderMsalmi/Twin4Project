@@ -35,6 +35,36 @@ export class ListProductComponent implements OnInit {
         nbrLike : 30,
         picture:"https://img01.ztat.net/article/spp-media-p1/b8277ae30cc942cfa1e44f4c137babdc/1aae5cf0cd9545a498a09ddefd278872.jpg?imwidth=300",
         quantity: 3
+      },
+      {
+        id:32,
+        
+        name : "CHASIN'",
+        description : "BASE-B - T-shirt basique - black",
+        price :100,
+        nbrLike : 30,
+        picture:"https://img01.ztat.net/article/spp-media-p1/b8277ae30cc942cfa1e44f4c137babdc/1aae5cf0cd9545a498a09ddefd278872.jpg?imwidth=300",
+        quantity: 3
+      },
+      {
+        id:32,
+        
+        name : "CHASIN'",
+        description : "BASE-B - T-shirt basique - black",
+        price :100,
+        nbrLike : 30,
+        picture:"https://img01.ztat.net/article/spp-media-p1/b8277ae30cc942cfa1e44f4c137babdc/1aae5cf0cd9545a498a09ddefd278872.jpg?imwidth=300",
+        quantity: 3
+      },
+      {
+        id:32,
+        
+        name : "CHASIN'",
+        description : "BASE-B - T-shirt basique - black",
+        price :100,
+        nbrLike : 30,
+        picture:"https://img01.ztat.net/article/spp-media-p1/b8277ae30cc942cfa1e44f4c137babdc/1aae5cf0cd9545a498a09ddefd278872.jpg?imwidth=300",
+        quantity: 3
       }
     ]
     }
