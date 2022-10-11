@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ContactComponent } from './pages/contact/contact.component';
 import { Routes , RouterModule} from '@angular/router';
-import { NotFoundComponent } from './shared/not-found/not-found.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 const ROUTES: Routes = [
   {
