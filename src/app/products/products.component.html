@@ -17,13 +17,13 @@
                             <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Category</span> </a>
                         <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                             <li class="w-100">
-                                <a  class="nav-link px-0"> <span class="d-none d-sm-inline">Women</span></a>
+                                <a [routerLink]="['category','Women']" class="nav-link px-0"> <span class="d-none d-sm-inline">Women</span></a>
                             </li>
                             <li>
-                                <a class="nav-link px-0"> <span class="d-none d-sm-inline">Men</span></a>
+                                <a [routerLink]="['category','Men']" class="nav-link px-0"> <span class="d-none d-sm-inline">Men</span></a>
                             </li>
                             <li>
-                              <a  class="nav-link px-0"> <span class="d-none d-sm-inline">kids</span> </a>
+                              <a [routerLink]="['category','Kids']" class="nav-link px-0"> <span class="d-none d-sm-inline">Kids</span> </a>
                           </li>
                         </ul>
                     </li>

@@ -6,12 +6,9 @@ import { Routes , RouterModule} from '@angular/router';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 const ROUTES: Routes = [
-  {
-    path:'',redirectTo:'home',pathMatch:'full'
-  },
-  {
-    path:'home',component: HomeComponent
-  },
+  {path:'',component:HomeComponent},
+  {path:'index',redirectTo:'home',pathMatch:'full'},
+  {path:'home',component: HomeComponent},
  
   {
     path:'contact',component:ContactComponent

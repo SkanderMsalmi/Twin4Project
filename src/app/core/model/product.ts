@@ -7,4 +7,5 @@ export class Product {
     nbrLike : number;
     picture : String;
     description : String;
+    category:String;
 }

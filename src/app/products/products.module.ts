@@ -12,7 +12,6 @@ import { ListProductComponent } from './list-product/list-product.component';
   declarations: [
     ProductsComponent,
     ListProductComponent,
-    
     FormProductComponent
   ],
   imports: [
