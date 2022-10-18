@@ -67,8 +67,7 @@ export class ListProductComponent implements OnInit {
           this.list=this.all.filter((p)=>p.category==this.category)
         }else{
           this.list=this.all;
-        }
-        
+        } 
       }
     )
    
